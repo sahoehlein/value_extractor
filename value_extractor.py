@@ -88,7 +88,7 @@ def text_check(text, regex_list):
 
 if __name__ == "__main__":
     
-    regex_list = [r'(p = \d+.\d+)',
+    regex_list = [r'(p = \d.\d+)',
                   r'(SD = \d+.\d+)'
                   r'(r = \d+.\d+)',
                   r'(p = .\d+)'
